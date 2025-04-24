@@ -1,8 +1,14 @@
+import { Header } from './components/Header';
 import { Post } from './Post'
+
+import './styles.css';
 
 export function App() {
   return (
     <div>
+
+      <Header />
+
       <Post 
         author=" Sophya Damiazo" 
         content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet tempore accusamus, excepturi suscipit, animi molestiae dolore cum itaque laudantium, sequi minus odit." 
