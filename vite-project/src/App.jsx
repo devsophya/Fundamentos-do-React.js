@@ -1,7 +1,10 @@
 import { Header } from './components/Header';
 import { Post } from './Post'
 
+import styles from './App.module.css';
+
 import './global.css';
+import { Sidebar } from './components/Sidebar';
 
 export function App() {
   return (
@@ -9,14 +12,20 @@ export function App() {
 
       <Header />
 
-      <Post 
-        author=" Sophya Damiazo" 
-        content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet tempore accusamus, excepturi suscipit, animi molestiae dolore cum itaque laudantium, sequi minus odit." 
-      />
-      <Post
-        author=" Gustavo Vieira"
-        content="Um novo post muito legal"
-      />
+
+      <div className={styles.wrapper}>
+        <Sidebar />
+        <main>
+          <Post
+            author=" Sophya Damiazo"
+            content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet tempore accusamus, excepturi suscipit, animi molestiae dolore cum itaque laudantium, sequi minus odit."
+          />
+          <Post
+            author=" Gustavo Vieira"
+            content="Um novo post muito legal"
+          />
+        </main>
+      </div>
     </div>
   )
 }
