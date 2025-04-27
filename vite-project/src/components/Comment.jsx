@@ -14,16 +14,16 @@ export function Comment() {
                             <time title="26 de Abril às 20:15h" datetime="2025-04-26 20:15:32">Cerca de 1h atrás</time>
                         </div>
                         <button title="Deletar comentário">
-                            <Trash size={20} />
+                            <Trash size={24} />
                         </button>
                     </header>
 
-                    <p>Muito bom Devon, parabéns!! 👏👏</p>
+                    <p>Muito bom Sophya, parabéns!! 👏👏</p>
                 </div>
 
                 <footer>
                     <button>
-                        <HandHeart />
+                        <HandHeart size={20} />
                         Amei<span>30</span>
                     </button>
                 </footer>
