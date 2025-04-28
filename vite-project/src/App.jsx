@@ -23,7 +23,7 @@ const posts = [
       { type: 'paragraph', content: 'Acabei de subir mais um projeto no meu portifólio. É um projeto que fiz no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare 🚀'},
       { type: 'link', content: '👉 sophya.design/doctorcare' },
     ],
-    pulishedAt: new Date ('2025-04-20 20:00:00')
+    publishedAt: new Date ('2025-04-20 20:00:00')
   },
   {
     id: 2,
@@ -37,7 +37,7 @@ const posts = [
       { type: 'paragraph', content: 'Acabei de subir mais um projeto no meu portifólio. É um projeto que fiz no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare 🚀'},
       { type: 'link', content: '👉 sophya.design/doctorcare' },
     ],
-    pulishedAt: new Date ('2025-04-21 19:00:00')
+    publishedAt: new Date ('2025-04-27 21:00:00')
   },
 ];
 
@@ -57,7 +57,7 @@ export function App() {
               <Post 
                 author={post.author}
                 content={post.content}
-                pulishedAt={post.pulishedAt}
+                publishedAt={post.publishedAt}
               />
             )
           })}
