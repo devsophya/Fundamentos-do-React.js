@@ -2,8 +2,13 @@ import { HandHeart, HeartStraight, Trash } from '@phosphor-icons/react';
 import styles from './Comment.module.css';
 import { Avatar } from './Avatar';
 
-export function Comment({ content }) {
-    return(
+export function Comment({ content, onDeleteComment }) {
+    function handleDeleteComment() {
+        console.log('deletar')
+        onDeleteComment(content);
+    }
+ 
+     return(
         <div className={styles.comment}>
             <Avatar hasBorder={false} src="https://github.com/devsophya.png"  />
 
@@ -14,7 +19,8 @@ export function Comment({ content }) {
                             <strong>Sophya Damiazo</strong>
                             <time title="26 de Abril às 20:15h" dateTime="2025-04-26 20:15:32">Cerca de 1h atrás</time>
                         </div>
-                        <button title="Deletar comentário">
+
+                        <button onClick={handleDeleteComment} title="Deletar comentário">
                             <Trash size={24} />
                         </button>
                     </header>
