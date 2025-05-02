@@ -35,5 +35,3 @@
     <li><h3>Introdução ao uso de TypeScript em aplicações React: tipagem de props, estados e eventos.</h3></li>
   </ul>
 </div>
-
-
