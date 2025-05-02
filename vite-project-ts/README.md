@@ -1,54 +1,36 @@
-# React + TypeScript + Vite
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <!-- Link para o Certificado -->
+        <a href="https://app.rocketseat.com.br/certificates/0df99574-a5a6-41b9-9b1f-579ce935abbc">
+          <img loading="lazy" width="128px" src="https://www.alura.com.br/assets/api/cursos/comecando-programacao-carreira-primeiros-passos.svg" />
+        </a>
+        <h4>Curso</h4>
+      </td>
+      <td align="center">
+        <!-- Link para o Certificado -->
+        <a href="https://app.rocketseat.com.br/certificates/0df99574-a5a6-41b9-9b1f-579ce935abbc">
+          <img loading="lazy" width="128px" src="https://static.vecteezy.com/system/resources/previews/028/293/920/original/trophy-icon-3d-rendering-illustration-png.png" />
+        </a>
+        <h4>Certificado</h4>
+      </td>
+    </tr>
+  </table>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+  <h1>Fundamentos do React 🌌</h1>
+</div>
+<p align="right">
+  <img loading="lazy" src="http://img.shields.io/static/v1?label=CARGA%20HORÁRIA&message=6H&color=RED&style=for-the-badge"/>
+  <img loading="lazy" src="http://img.shields.io/static/v1?label=STATUS&message=FINALIZADO!&color=GREEN&style=for-the-badge"/>
+</p>
+<div>
+  <h2> Competências desenvolvidas:  </h2>
+  <ul>
+   <li><h3>Fundamentos do React: criação e reutilização de componentes funcionais.</h3></li>
+    <li><h3>Manipulação de propriedades (props) e gerenciamento de estado com <code>useState</code>.</h3></li>
+    <li><h3>Princípios de imutabilidade na manipulação de dados no React.</h3></li>
+    <li><h3>Utilização de hooks como <code>useEffect</code> para controle de ciclo de vida.</h3></li>
+    <li><h3>Introdução ao uso de TypeScript em aplicações React: tipagem de props, estados e eventos.</h3></li>
+  </ul>
+</div>
