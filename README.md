@@ -1,3 +1,4 @@
+
 <div align="center">
   <table>
     <tr>
@@ -21,7 +22,7 @@
   <h1>Fundamentos do React 🌌</h1>
 </div>
 <p align="right">
-  <img loading="lazy" src="http://img.shields.io/static/v1?label=CARGA%20HORÁRIA&message=6H&color=RED&style=for-the-badge"/>
+  <img src="https://img.shields.io/static/v1?label=CARGA%20HORARIA&message=6%20HORAS&color=red&style=for-the-badge"/>
   <img loading="lazy" src="http://img.shields.io/static/v1?label=STATUS&message=FINALIZADO!&color=GREEN&style=for-the-badge"/>
 </p>
 <div>
