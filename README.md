@@ -35,3 +35,7 @@
     <li><h3>Introdução ao uso de TypeScript em aplicações React: tipagem de props, estados e eventos.</h3></li>
   </ul>
 </div>
+<div align="center">
+  <h1>🐱‍🏍 Ignite Feed (Projeto):</h1>
+  <img src="https://github.com/devsophya/Fundamentos-do-React.js/blob/main/vite-project-ts/public/Ignite-Feed.gif">
+</div>
